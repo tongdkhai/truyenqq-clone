@@ -1,0 +1,10 @@
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+}
+
+* {
+    box-sizing: inherit;
+    box-sizing: border-box;
+}

@@ -1,0 +1,32 @@
+/* Header */
+.header {
+    height: 65px;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 116px;
+}
+
+.header__navbar--list {
+    list-style: none;
+
+}
+
+.header__navbar--item {
+    display: inline-block;
+}
+
+.header__element {
+    height: 50px;
+    background-color: var(--primary-color);
+}
+
+.header__element--list {
+    list-style: none;
+}
+
+.header__element--item {
+    display: inline-block;
+}

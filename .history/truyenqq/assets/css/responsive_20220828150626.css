@@ -1,0 +1,31 @@
+/* Tablet + Mobile */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .header__navbar-text {
+        display: none;
+    }
+
+    .header__navbar--search {
+        display: none;
+    }
+
+    .header__navbar--button {
+        margin-left: 5px;
+    }
+
+    .header__navbar--avt,
+    .header__navbar--notify {
+        position: relative;
+        left: -55px;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    
+}

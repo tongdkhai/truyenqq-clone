@@ -1,0 +1,92 @@
+:root {
+    --primary-color: rgb(241,129,33);
+    
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.app {
+    background-color: #ebebeb;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.grid__column-2 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 16.6667%;
+}
+
+.grid__column-2-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 20%;
+}
+
+.grid__column-6 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 50%;
+}
+.grid__column-10 {
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 83.3334%;
+}
+
+/* Animation */
+@keyframes pulse {
+   0% {
+    opacity: 1;
+   }
+
+   50% {
+    opacity: 0;
+   }
+
+   100% {
+    opacity: 1;
+   }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes mobileSideDown {
+    from {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(100%);
+        opacity: 1;
+    }
+}

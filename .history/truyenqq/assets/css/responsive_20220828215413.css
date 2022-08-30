@@ -1,0 +1,97 @@
+/* Tablet + Mobile */
+@media only screen and (max-width: 1023px) {
+    .newcomic {
+        display: none;
+    }
+
+    .footer__two--list {
+        padding-left: 8px;
+        flex-wrap: wrap;
+    }
+
+    .comic__favorite--icon-right,
+    .comic__favorite--icon-left {
+        display: none;
+    }
+
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .header__navbar {
+        height: 48px;
+    }
+    .header__navbar-text {
+        display: none;
+    }
+
+    .header__navbar--search {
+        display: none;
+    }
+
+    .header__navbar--button {
+        margin-left: 5px;
+    }
+
+    .title--text {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .app__content {
+        padding-left: 16px;
+    }
+
+    .header__element--item:nth-child(n+2) {
+        display: none;
+    }
+
+    .header__navbar--mobile-icon {
+        display: flex;
+    }
+
+    .footer {
+        min-height: 383px;
+    }
+
+    .footer__one {
+        margin: 0 0 0 8px;
+    }
+
+    .footer__part-1 {
+        margin-bottom: 10px;
+    }
+
+    .footer__part-2 {
+        display: none;
+    }
+
+    .footer__two--text {
+        line-height: 1.4rem;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .header__element--text {
+        font-size: 1.4rem;
+    }
+
+    .header__element--category-item {
+        padding: 4px 0;
+        min-width: 120px;
+    }
+
+    .header__element--ranking-item {
+        padding: 10px;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        min-width: 80px;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}

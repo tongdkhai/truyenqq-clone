@@ -1,0 +1,58 @@
+/* Tablet + Mobile */
+@media only screen and (max-width: 1023px) {
+    
+}
+
+/* Mobile */
+@media only screen and (max-width: 739px) {
+    .header__navbar {
+        height: 48px;
+    }
+    .header__navbar-text {
+        display: none;
+    }
+
+    .header__navbar--search {
+        display: none;
+    }
+
+    .header__navbar--button {
+        margin-left: 5px;
+    }
+
+    .title--text {
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .newcomic {
+        display: none;
+    }
+
+    .app__content {
+        padding-left: 16px;
+    }
+
+    .comic__favorite--icon-right,
+    .comic__favorite--icon-left {
+        display: none;
+    }
+
+    .header__element--item:nth-child(n+2) {
+        display: none;
+    }
+
+    .header__navbar--mobile-icon {
+        display: flex;
+    }
+
+    .footer__one {
+        margin: 4px 0 0 6px;
+    }
+
+}
+
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    
+}

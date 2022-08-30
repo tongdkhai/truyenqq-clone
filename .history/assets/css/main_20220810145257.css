@@ -1,0 +1,29 @@
+/* Header */
+.header {
+    height: 80px;
+}
+
+.header__navbar {
+    display: flex;
+}
+
+.header__navbar--list {
+    list-style: none;
+
+}
+
+.header__navbar--item {
+    display: inline-block;
+}
+
+.header__element {
+    height: 80px;
+}
+
+.header__element--list {
+    list-style: none;
+}
+
+.header__element--item {
+    display: inline-block;
+}
